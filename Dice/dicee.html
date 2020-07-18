@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 id="one">DICE</h1>
+      <form class="form-group">
+        <input type="text" placeholder="Enter Player 1's name" id="input1" class="form-control">
+        <input type="text" placeholder="Enter player 2's name" id="input2" class="form-control">
+        <button type="button" onclick="start()" class="btn btn-primary">START</button>
+      </form>
+      <div class="dice">
+        <p id="player1"></p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p id="player2"></p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
